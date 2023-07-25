@@ -11,5 +11,6 @@ public class KeyBinding {
     public static final String KEY_CATEGORY_TREEFELLING = "key.category.treefell.treefelling";
     public static final String KEY_FELLING = "key.treefell.felling";
 
-    public static final KeyMapping FELLING_KEY = new KeyMapping(KEY_FELLING, KeyConflictContext.IN_GAME, InputConstants.Type.KEYSYM, GLFW.GLFW_KEY_LEFT_SHIFT, KEY_CATEGORY_TREEFELLING)
+    public static final KeyMapping FELLING_KEY = new KeyMapping(KEY_FELLING, KeyConflictContext.IN_GAME,
+            InputConstants.Type.KEYSYM, GLFW.GLFW_KEY_LEFT_SHIFT, KEY_CATEGORY_TREEFELLING);
 }
